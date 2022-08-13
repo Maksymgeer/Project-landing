@@ -1,0 +1,28 @@
+
+:root {
+	--color-gray: #8c8c8c;
+	--color-orange: #ff4d00;
+	--color-medium: #24211f;
+	--color-dark: #24211f;
+}
+
+%style-title {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: #24211f;
+}
+
+%style-card-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 125%;
+	color: #24211f;
+}
+
+%style-card-subtext {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 125%;
+	color: #ff4d00;
+}

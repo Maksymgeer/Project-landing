@@ -1,0 +1,27 @@
+@import "fonts";
+@import "./libs/slider.scss";
+@import "blocks/header.scss";
+@import "blocks/breadcrumbs.scss";
+@import "blocks/main.scss";
+@import "blocks/footer.scss";
+@import "blocks/params.scss";
+@import "blocks/global.scss";
+@import "blocks/reset.scss";
+@import "blocks/media.scss";
+
+
+
+// BLOG PAGE //
+@import "blocks/header.scss";
+@import "blocks/breadcrumbs.scss";
+@import "blocks-2/main-blog.scss";
+@import "blocks-2/media-blog.scss";
+/*@import "blocks/footer.scss";*/
+
+
+// CONTACTS //
+@import "blocks/header.scss";
+@import "blocks-3/search.scss";
+@import "blocks/breadcrumbs.scss";
+@import "blocks-3/contact-main.scss";
+@import "blocks-3/media-contact.scss";

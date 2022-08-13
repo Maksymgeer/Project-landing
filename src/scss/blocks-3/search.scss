@@ -1,0 +1,77 @@
+.contact-search {
+	padding: 20px 0px 20px 0px;
+	background: #f7f7f7;
+	&__container {
+		max-width: 1410px;
+		margin: 0 auto;
+		padding: 0px 15px;
+	}
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 28px;
+	}
+
+	&__form {
+		display: flex;
+		align-items: center;
+	}
+
+	&__input {
+		width: 1100px;
+		padding: 14px 20px 14px 20px;
+		background: #ffffff;
+		border: 1px solid #dedede;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+
+		&::placeholder {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 15px;
+			color: #8c8c8c;
+		}
+	}
+	&__btn {
+		padding: 15px 14px 14px 50px;
+		background: #ff4d00;
+		border-radius: 0px 5px 5px 0px;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #ffffff;
+		position: relative;
+		&::before {
+			content: "";
+			position: absolute;
+			background-image: url("../img/search-icon.svg");
+			width: 14px;
+			height: 14px;
+			top: 15px;
+			left: 22px;
+		}
+	}
+	&__text {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #858585;
+		padding-left: 25px;
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url('../img/contact-search-icon.svg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			top: 1px;
+			left: 0;
+			width: 14px;
+			height: 14px;
+		}
+	}
+}

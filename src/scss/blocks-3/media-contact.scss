@@ -1,0 +1,81 @@
+@media (max-width: 1415px) {
+	.contact-search__input {
+		width: 800px;
+	}
+}
+
+@media (max-width: 1110px) {
+	.contact-search__inner {
+		flex-wrap: wrap;
+	}
+	.contact-search__input {
+		width: 500px;
+	}
+}
+
+@media (max-width: 630px) {
+	.contact-search__input {
+		width: 300px;
+	}
+
+	.contact-search__btn {
+		height: 45px;
+		width: 45px;
+		span {
+			display: none;
+		}
+		padding: 14px;
+		text-align: center;
+		&::before {
+			content: "";
+			position: absolute;
+			background-image: url("../img/search-icon.svg");
+			width: 14px;
+			height: 14px;
+			top: 15px;
+			left: 13px;
+		}
+	}
+}
+
+@media (max-width: 375px) {
+	.contact-search__input {
+		width: 240px;
+	}
+}
+
+@media (max-width: 992px) {
+	.contact-region__title {
+		text-align: start;
+	}
+	.contact-region__inner {
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+}
+
+@media (max-width: 768px) {
+	.contact-question__info {
+		padding: 45px 70px 45px 90px;
+	}
+}
+
+@media (max-width: 460px) {
+	.contact-question__info {
+		padding: 35px 30px;
+	}
+}
+@media (max-width: 992px) {
+	.contact-cards__body {
+	}
+
+	.contact-cards__title {
+		margin-bottom: 10px;
+	}
+	.contact-cards__text {
+		opacity: 1;
+		visibility: visible;
+		margin-bottom: 30px;
+	}
+}

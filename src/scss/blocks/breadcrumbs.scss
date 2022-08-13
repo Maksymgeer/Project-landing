@@ -1,0 +1,36 @@
+.breadcrumbs {
+	border-top: 1px solid #8c8c8c;
+	border-bottom: 1px solid #8c8c8c;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	padding: 18px 0px;
+	&__inner {
+		display: flex;
+	}
+
+	&__img {
+		margin-right: 10px;
+	}
+
+	&__link {
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 15px;
+		text-decoration-line: underline;
+		color: #8c8c8c;
+		margin-right: 5px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	span {
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 15px;
+		color: #8c8c8c;
+		margin-right: 5px;
+	}
+}

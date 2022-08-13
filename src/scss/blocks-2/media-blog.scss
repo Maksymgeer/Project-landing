@@ -1,0 +1,84 @@
+@media (max-width: 1410px) {
+	.main-page__container {
+		margin-left: 0;
+	}
+
+	.aside__container {
+		align-items: flex-start;
+	}
+	.aside__img-scroll {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 1235px) {
+	.main__inner {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 580px) {
+	.information-main {
+		flex-wrap: wrap;
+		row-gap: 15px;
+	}
+	.information-main__title {
+		margin-right: 18px;
+	}
+	.information-main__date {
+		margin-right: 18px;
+	}
+	.information-main__people {
+		display: none;
+	}
+
+	/* SHARE */
+	.main-share__images {
+		flex-wrap: wrap;
+	}
+
+	.main-share__icon,
+	.main-share__text {
+		align-self: flex-start;
+	}
+}
+
+@media (max-width: 992px) {
+	.images-main {
+		flex-wrap: wrap;
+	}
+	.images-main__icon {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media (max-width: 480px) {
+	.images-main__icon {
+		display: none;
+	}
+}
+@media (max-width: 620px) {
+	.main-mail {
+		padding: 40px 130px 50px 130px;
+	}
+	.main-mail__input {
+		width: 335px;
+	}
+
+	.main-mail__btn {
+		padding: 14px 100px;
+	}
+}
+
+@media (max-width: 410px) {
+	.main-mail {
+		padding: 30px 100px 40px 100px;
+	}
+	.main-mail__input {
+		width: 260px;
+	}
+	.main-mail__btn {
+	padding: 13px 85px;
+	}
+}
